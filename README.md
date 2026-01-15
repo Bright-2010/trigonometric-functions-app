@@ -1,2 +1,12 @@
 # trigonometric-functions-app
 trigonometric functions app and API
+
+这个API的链接是: https://api.brightweb.top/trig
+调用方法：
+- 必须通过json方式传送2个值 type和deg type为三角函数类型(sin cos tan)，deg为度数，单位必须是度，否则返回结果会有错误，传入类型应为数字 然后你会收到json响应
+- 你会收到此响应 `{'type': 'sin', 'degree': 30, 'radian': 0.5235987755982988, 'result': 0.5}` 就像这样
+- type:你的三角函数类型   degree:你的三角函数度数   radian:你的三角函数结果的精确值（由于计算机计数精度问题可能出现极微小误差，不过这可以忽略不计） result: 这是估计值，即取前几位小数计算，此值完全正确，没有误差
+
+后续我会给这个API增加更多功能，敬请期待！
+
+example.py是调用此API的示范程序，可以作为参考（由于调用API，所以必须联网）
