@@ -12,3 +12,5 @@ trigonometric functions app and API
 后续我会给这个API增加更多功能，敬请期待！
 
 example.py是调用此API的示范程序，可以作为参考（由于调用API，所以必须联网）
+
+注意：使用示例程序时请安装requests模块，命令为`pip install requests` 如果你是Mac `pip3 install requests`
