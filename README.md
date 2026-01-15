@@ -1,7 +1,7 @@
 # trigonometric-functions-app
 trigonometric functions app and API
 
-这个API的链接是: https://api.brightweb.top/trig
+我的API链接是: https://api.brightweb.top/trig
 调用方法：
 - 必须通过json方式传送2个值 type和deg
 - type为三角函数类型(sin cos tan)
