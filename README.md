@@ -15,4 +15,6 @@ example.py是调用此API的示范程序，可以作为参考（由于调用API�
 
 注意：使用示例程序请安装python环境（如没有）和requests模块，命令为`pip install requests` 如果你是Mac `pip3 install requests`,否则程序可能无法执行
 
+**如果你不会写代码，你也可以在浏览器中体验，只需要`https://api.brightweb.top/trig?type=sin&deg=30`以此类推即可**
+
 ## 我已经开源了API服务部分，可以通过node直接启动服务，服务端口在3000，可以进阶使用pm2管理进程
