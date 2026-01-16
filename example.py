@@ -3,7 +3,7 @@ import tkinter as tk
 from tkinter import ttk
 def re_num():
     http=requests.get(
-        "http://api.brightweb.top/trig",
+        "https://api.brightweb.top/trig",
         params={
             "type": var.get(),
             "deg": enter_var.get()
