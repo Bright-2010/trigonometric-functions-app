@@ -1,9 +1,6 @@
 const express = require("express");
 const app = express();
 
-/**
- * GET /trigapi?type=sin|cos|tan&deg=number
- */
 app.get("/trigapi", (req, res) => {
   const { type, deg } = req.query;
 
