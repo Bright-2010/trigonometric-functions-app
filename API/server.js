@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 
-app.get("/trigapi", (req, res) => {
+app.get("/trig", (req, res) => {
   const { type, deg } = req.query;
 
   const degree = Number(deg);
