@@ -2,6 +2,9 @@ import requests
 import tkinter as tk
 from tkinter import ttk
 def re_num():
+    if not enter_var.get().isdigit():
+        answer_lable.config(text="输入的内容不是数字，请重新输入。")
+        return
     http=requests.get(
         "https://api.brightweb.top/trig",
         params={
